@@ -1,3 +1,30 @@
 *, *:before, *:after { box-sizing: border-box }
 html { scroll-behavior: smooth }
 html, body { height: 100% }
+
+.app__section {
+    height: 100vh;
+}
+
+.app__section:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+.startscreen {
+    background-image: url("./assets/portfolio.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.nav-list {
+    flex-basis: 250px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
